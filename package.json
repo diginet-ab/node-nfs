@@ -1,18 +1,12 @@
 {
-    "name": "nfs",
+    "name": "@diginet/nfs",
     "description": "Node.js bindings for NFS",
-    "version": "0.1.0",
-    "author": {
-        "name": "Joyent, Inc.",
-        "url": "http://joyent.com/"
-    },
+    "version": "0.0.1",
+    "author": "Diginet",
     "license": "MPL-2.0",
     "repository": {
         "type": "git",
-        "url": "git://github.com/joyent/node-nfs.git"
-    },
-    "bugs": {
-        "url": "https://github.com/joyent/node-nfs/issues"
+        "url": "git://github.com/diginet-ab/node-nfs.git"
     },
     "main": "lib/index.js",
     "dependencies": {
