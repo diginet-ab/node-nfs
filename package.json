@@ -16,10 +16,11 @@
         "once": "1.2.0"
     },
     "devDependencies": {
+        "@types/node": "^10.12.10",
         "bunyan": "0.22.0",
+        "node-uuid": "1.4.1",
         "nodeunit": "0.8.1",
         "nodeunit-plus": "0.0.1",
-        "node-uuid": "1.4.1",
         "statvfs": "2.1.0",
         "vasync": "1.4.0"
     },

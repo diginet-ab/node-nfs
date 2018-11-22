@@ -1,0 +1,1 @@
+export let browserFs = null as any
