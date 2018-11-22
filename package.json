@@ -1,7 +1,7 @@
 {
     "name": "@diginet/nfs",
     "description": "Node.js bindings for NFS",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "Diginet",
     "license": "MPL-2.0",
     "repository": {
@@ -27,6 +27,6 @@
         "test": "for f in $(ls test/*.test.js) ; do nodeunit $f ; done"
     },
     "engines": {
-        "node" : ">=0.10.18 <0.12"
+        "node": ">=0.10.18 <0.12"
     }
 }
