@@ -18,7 +18,9 @@ function _export(obj) {
 
 ///--- Exports
 
-module.exports = { setBrowserFs: function(BFS) { (browserFs as any).BFS = BFS } };
+export function setBrowserFs(BFS) {
+    (browserFs as any).BFS = BFS
+}
 
 _export(require('./mount'));
 _export(require('./nfs'));
