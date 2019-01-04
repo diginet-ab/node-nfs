@@ -6,21 +6,11 @@
 
 import * as browserFs from './browserFs'
 
-///--- Helpers
-
-function _export(obj) {
-    Object.keys(obj).forEach(function (k) {
-        module.exports[k] = obj[k];
-    });
-}
-
-
-
 ///--- Exports
 
 export function setBrowserFs(BFS) {
     (browserFs as any).BFS = BFS
 }
 
-_export(require('./mount'));
-_export(require('./nfs'));
+export * from './mount'
+export * from './nfs'
