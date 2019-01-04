@@ -58,6 +58,7 @@ export const ACCESS3_MODIFY: 4
 export const ACCESS3_EXTEND: 8
 export const ACCESS3_DELETE: 16
 export const ACCESS3_EXECUTE: 32
+export const create_how: { UNCHECKED: 0; GUARDED: 1; EXCLUSIVE: 2 }
 export function create(...args: any[])
 export function create_fattr3(...args: any[])
 export function parse(...args: any[])
