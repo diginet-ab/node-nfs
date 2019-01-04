@@ -1,7 +1,7 @@
 {
     "name": "@diginet/nfs",
     "description": "Node.js bindings for NFS",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "author": "Diginet",
     "license": "MPL-2.0",
     "repository": {
