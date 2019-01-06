@@ -12,23 +12,17 @@
     "dependencies": {
         "assert-plus": "0.1.4",
         "clone": "0.1.10",
-        "oncrpc": "0.1.0",
+        "@diginet/oncrpc": "0.2.0",
         "once": "1.2.0"
     },
     "devDependencies": {
         "@types/node": "^10.12.10",
         "bunyan": "0.22.0",
-        "node-uuid": "1.4.1",
         "nodeunit": "0.8.1",
-        "nodeunit-plus": "0.0.1",
-        "statvfs": "2.1.0",
-        "vasync": "1.4.0"
+        "nodeunit-plus": "0.0.1"
     },
     "scripts": {
         "test": "for f in $(ls test/*.test.js) ; do nodeunit $f ; done"
-    },
-    "engines": {
-        "node": ">=0.10.18 <0.12"
     },
     "types": "index.d.ts"
 }

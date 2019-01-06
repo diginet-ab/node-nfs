@@ -6,7 +6,7 @@
 
 var bunyan = require('bunyan');
 var nfs = require('../lib');
-var rpc = require('oncrpc');
+var rpc = require('@diginet/oncrpc');
 
 
 

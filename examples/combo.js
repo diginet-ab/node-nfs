@@ -11,7 +11,7 @@ var assert = require('assert-plus');
 var bunyan = require('bunyan');
 var libuuid = require('node-uuid');
 var nfs = require('../lib');
-var rpc = require('oncrpc');
+var rpc = require('@diginet/oncrpc');
 var statvfs = require('statvfs');
 var vasync = require('vasync')
 
