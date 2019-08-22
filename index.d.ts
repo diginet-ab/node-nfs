@@ -1,4 +1,3 @@
-export function setBrowserFs(BFS: any)
 export function MountClient(...args: any[])
 export function createMountClient(...args: any[])
 export function MountDumpReply(...args: any[])
